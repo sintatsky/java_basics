@@ -3,6 +3,15 @@ public class Loader
 {
     public static void main(String[] args)
     {
+
+        Cat cat = new Cat();
+        System.out.println(cat.getWeight());
+        cat.pee();
+        System.out.println(cat.getWeight());
+        
+        System.out.println(cat.feed(213.43));
+
+/*
         Cat cat1 = new Cat();
         System.out.println("Cat1 weight: " + cat1.getWeight());
         cat1.meow(16272);
@@ -27,7 +36,7 @@ public class Loader
         Cat cat5 = new Cat();
         cat5.feed(44445.4);
         System.out.println("Cat5:        " + cat5.getStatus());
-
+*/
 
     }
 }
