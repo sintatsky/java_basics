@@ -9,9 +9,10 @@ public class Loader
         cat.pee();
         System.out.println(cat.getWeight());
         
-        System.out.println(cat.feed(213.43));
+        System.out.println(cat.feed(546.5)*2);
 
-/*
+
+
         Cat cat1 = new Cat();
         System.out.println("Cat1 weight: " + cat1.getWeight());
         cat1.meow(16272);
@@ -36,7 +37,7 @@ public class Loader
         Cat cat5 = new Cat();
         cat5.feed(44445.4);
         System.out.println("Cat5:        " + cat5.getStatus());
-*/
+
 
     }
 }

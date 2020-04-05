@@ -16,8 +16,7 @@ public class Cat
         originWeight = weight;
         minWeight = 1000.0;
         maxWeight = 9000.0;
-        amountFood = 0;
-        food = 150.00;
+        amountFood = 150.00;
 
     }
 
@@ -35,9 +34,7 @@ public class Cat
 
     public double feed(Double amount)
     {
-        amountFood = food;
         return amountFood;
-
 
     }
 
