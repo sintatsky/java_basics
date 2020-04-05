@@ -6,8 +6,7 @@ public class Cat
 
     private double minWeight;
     private double maxWeight;
-
-    private double food;
+    
     private double amountFood;
 
     public Cat()
