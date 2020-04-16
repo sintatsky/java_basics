@@ -3,7 +3,19 @@ public class Loader
 {
     public static void main(String[] args)
     {
-
+        System.out.println("Количество кошек в начале = " + Cat.getCount());
+        //==================================================
+        System.out.println("Создали кошку");
+        Cat vasya = new Cat();
+        System.out.println("Вес Васьки = " + vasya.getWeight());
+        System.out.println("Количество кошек = " + Cat.getCount());
+        System.out.println("Покормили кошку");
+        double feed = vasya.feed(9999.9);
+        System.out.println("Вес кошки = " + vasya.getWeight());
+        System.out.println("Стало кошек = " + Cat.getCount());
+        System.out.println(vasya.isAlive());
+        System.out.println();
+        //===================================================
         Cat cat = new Cat();
         System.out.println(cat.getWeight());
         cat.pee();
