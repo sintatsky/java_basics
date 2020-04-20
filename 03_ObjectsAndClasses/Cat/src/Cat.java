@@ -1,6 +1,5 @@
 
-public class Cat
-{
+public class Cat {
     public static final int EYES_COUNT = 2;
     public static final double MIN_WEIGHT = 1000.0;
     public static final double MAX_WEIGHT = 9000.0;
@@ -19,7 +18,6 @@ public class Cat
     private String name;
 
 
-
     public Cat() {
         weight = 1500.0 + 3000.0 * Math.random();
         originWeight = weight;
@@ -30,17 +28,15 @@ public class Cat
     }
 
 
-    public boolean isAlive(){
-         return weight >= minWeight && weight <= maxWeight;
+    public boolean isAlive() {
+        return weight >= minWeight && weight <= maxWeight;
 
     }
 
 
-    public static double getCount()
-    {
+    public static double getCount() {
         return count;
     }
-
 
 
     public double feed(Double amount) {
@@ -72,7 +68,6 @@ public class Cat
     }
 
 
-
     public void drink(Double amount) {
         weight = weight + amount;
     }
@@ -82,16 +77,13 @@ public class Cat
     }
 
     public String getStatus() {
-        if(weight < minWeight) {
+        if (weight < minWeight) {
             return "Dead";
-        }
-        else if(weight > maxWeight) {
+        } else if (weight > maxWeight) {
             return "Exploded";
-        }
-        else if(weight > originWeight) {
+        } else if (weight > originWeight) {
             return "Sleeping";
-        }
-        else {
+        } else {
             return "Playing";
         }
     }

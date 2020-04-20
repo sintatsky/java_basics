@@ -1,5 +1,4 @@
-public enum CatColor
-{
+public enum CatColor {
     YELLOW,
     BLACK,
     WHITE,

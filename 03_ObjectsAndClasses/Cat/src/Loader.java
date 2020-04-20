@@ -23,9 +23,8 @@ public class Loader {
         System.out.println(cat.getWeight());
         cat.pee();
         System.out.println(cat.getWeight());
-        
-        System.out.println(cat.feed(546.5)*2);
 
+        System.out.println(cat.feed(546.5) * 2);
 
 
         Cat cat1 = new Cat();
@@ -33,7 +32,6 @@ public class Loader {
         cat1.meow(16272);
         System.out.println("Cat1 weight: " + cat1.getWeight());
         System.out.println("Cat1:        " + cat1.getStatus());
-        
 
 
         Cat cat2 = new Cat();
