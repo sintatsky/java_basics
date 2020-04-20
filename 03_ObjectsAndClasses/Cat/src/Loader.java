@@ -1,8 +1,11 @@
+import javax.xml.namespace.QName;
+import java.sql.SQLOutput;
 
-public class Loader
-{
-    public static void main(String[] args)
-    {
+public class Loader {
+
+
+    public static void main(String[] args) {
+
         System.out.println("Количество кошек в начале = " + Cat.getCount());
         //==================================================
         System.out.println("Создали кошку");
