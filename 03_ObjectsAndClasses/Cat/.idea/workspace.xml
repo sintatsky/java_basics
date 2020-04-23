@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3566954-15db-468d-82d7-9b60a8957e26" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CatColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CatColor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -166,22 +164,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587052910833" />
-    <state width="1876" height="35" key="GridCell.Tab.0.bottom" timestamp="1587390667903">
+    <state width="1876" height="2" key="GridCell.Tab.0.bottom" timestamp="1587643370857">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="35" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587390667903" />
-    <state width="1876" height="35" key="GridCell.Tab.0.center" timestamp="1587390667902">
+    <state width="1876" height="2" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587643370857" />
+    <state width="1876" height="2" key="GridCell.Tab.0.center" timestamp="1587643370857">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="35" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587390667902" />
-    <state width="1876" height="35" key="GridCell.Tab.0.left" timestamp="1587390667902">
+    <state width="1876" height="2" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587643370857" />
+    <state width="1876" height="2" key="GridCell.Tab.0.left" timestamp="1587643370856">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="35" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587390667902" />
-    <state width="1876" height="35" key="GridCell.Tab.0.right" timestamp="1587390667903">
+    <state width="1876" height="2" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587643370856" />
+    <state width="1876" height="2" key="GridCell.Tab.0.right" timestamp="1587643370857">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="35" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587390667903" />
+    <state width="1876" height="2" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587643370857" />
     <state x="461" y="151" key="SettingsEditor" timestamp="1587391734281">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -190,10 +188,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="655" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585678701411" />
+    <state x="557" y="304" key="extract.method.dialog" timestamp="1587643024023">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="557" y="304" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587643024023" />
     <state x="342" y="139" key="new project wizard" timestamp="1585678709987">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="342" y="139" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1585678709987" />
+    <state x="1235" y="147" key="refactoring.ChangeSignatureDialog" timestamp="1587640870085">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1235" y="147" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587640870085" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

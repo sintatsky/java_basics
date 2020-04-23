@@ -4,7 +4,7 @@ public class Cat {
     public static final double MIN_WEIGHT = 1000.0;
     public static final double MAX_WEIGHT = 9000.0;
 
-    private static double count;
+    private static int count;
 
     private double originWeight;
     private double weight;
@@ -17,6 +17,9 @@ public class Cat {
 
     private String name;
 
+    public Cat(Double amount) {
+    this();
+    }
 
     public Cat() {
         weight = 1500.0 + 3000.0 * Math.random();
@@ -24,7 +27,13 @@ public class Cat {
         minWeight = 1000.0;
         maxWeight = 9000.0;
         amountFood = 150.00;
+        count++;
+    }
 
+
+    public Cat(String name) {
+        this();
+        this.name = name;
     }
 
 
@@ -41,7 +50,7 @@ public class Cat {
 
     public double feed(Double amount) {
 
-        if (isAlive()) {
+        if (!isAlive()) {
             totalEatenFood = totalEatenFood + amount;
             weight = weight + amount;
             decreaseCountIfDead();
@@ -56,7 +65,7 @@ public class Cat {
     }
 
     private void decreaseCountIfDead() {
-        if (!isAlive()) {
+        if (isAlive()) {
             count--;
         }
     }
