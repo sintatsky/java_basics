@@ -17,8 +17,12 @@ public class Cat {
 
     private String name;
 
+
     public Cat(Double amount) {
-    this();
+        this();
+    }
+
+    public void setCatColor(CatColor color) {
     }
 
     public Cat() {
@@ -75,10 +79,13 @@ public class Cat {
         }
     }
 
-
-    public void pee() {
-        weight = weight - 1;
-        System.out.println("Uuhoo");
+    public void pee(Double amount) {
+        if (!isAlive()) {
+            totalEatenFood = totalEatenFood + amount;
+            weight = weight - 1;
+            decreaseCountIfDead();
+            System.out.println("Uuhoo");
+        }
     }
 
 

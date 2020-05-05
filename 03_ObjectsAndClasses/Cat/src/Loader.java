@@ -9,10 +9,16 @@ public class Loader {
 
     public static void main(String[] args) {
 
+        Cat richard = new Cat();
+        richard.setName("Ричард");
+        Cat tom = richard;
+        tom.setName("Том");
+        System.out.println(richard.getName);
 
         Cat murka = new Cat("Мурка");
         System.out.println(murka.getWeight());
         System.out.println("Количество кошек в начале = " + Cat.getCount());
+        murka.setCatColor(CatColor.GREY);
         // ==================================================
         System.out.println("Создали кошку");
         Cat vasya = new Cat();
@@ -27,7 +33,7 @@ public class Loader {
         // ===================================================
         Cat cat = new Cat();
         System.out.println(cat.getWeight());
-        cat.pee();
+        cat.pee(32.3);
         System.out.println(cat.getWeight());
 
         System.out.println(cat.feed(546.5) * 2);
