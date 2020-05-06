@@ -54,7 +54,7 @@ public class Cat {
 
     public double feed(Double amount) {
 
-        if (!isAlive()) {
+        if (isAlive()) {
             totalEatenFood = totalEatenFood + amount;
             weight = weight + amount;
             decreaseCountIfDead();
@@ -64,7 +64,7 @@ public class Cat {
     }
 
     public void meow(int amount) {
-        if (!isAlive()) {
+        if (isAlive()) {
             totalEatenFood = totalEatenFood + amount;
             weight = weight - amount;
             decreaseCountIfDead();
@@ -74,13 +74,13 @@ public class Cat {
     }
 
     private void decreaseCountIfDead() {
-        if (isAlive()) {
+        if (!isAlive()) {
             count--;
         }
     }
 
     public void pee(Double amount) {
-        if (!isAlive()) {
+        if (isAlive()) {
             totalEatenFood = totalEatenFood + amount;
             weight = weight - 1;
             decreaseCountIfDead();
@@ -90,7 +90,7 @@ public class Cat {
 
 
     public void drink(Double amount) {
-        if (!isAlive()) {
+        if (isAlive()) {
             totalEatenFood = totalEatenFood + amount;
             weight = weight + amount;
             decreaseCountIfDead();
