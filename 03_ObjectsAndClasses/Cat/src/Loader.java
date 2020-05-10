@@ -9,11 +9,13 @@ public class Loader {
 
     public static void main(String[] args) {
 
+
+
         Cat richard = new Cat();
         richard.setName("Ричард");
         Cat tom = richard;
         tom.setName("Том");
-        System.out.println(richard.getName);
+        System.out.println(richard.getName());
 
         Cat murka = new Cat("Мурка");
         System.out.println(murka.getWeight());
