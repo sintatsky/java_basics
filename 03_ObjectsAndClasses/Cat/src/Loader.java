@@ -10,7 +10,7 @@ public class Loader {
 
     public static void main(String[] args) {
 
-        System.out.println(getKitten().getWeight());
+        getKitten().getWeight();
         Cat richard = new Cat();
         richard.setName("Ричард");
         Cat tom = richard;

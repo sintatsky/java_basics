@@ -30,7 +30,6 @@ public class Cat {
     }
 
     public Cat(Double weight) {
-
     }
 
     public Cat() {
@@ -71,7 +70,6 @@ public class Cat {
 
     public void meow(int amount) {
         if (isAlive()) {
-            totalEatenFood = totalEatenFood + amount;
             weight = weight - amount;
             decreaseCountIfDead();
             System.out.println("Meow");
@@ -87,7 +85,6 @@ public class Cat {
 
     public void pee(Double amount) {
         if (isAlive()) {
-            totalEatenFood = totalEatenFood + amount;
             weight = weight - 1;
             decreaseCountIfDead();
             System.out.println("Uuhoo");
@@ -97,7 +94,6 @@ public class Cat {
 
     public void drink(Double amount) {
         if (isAlive()) {
-            totalEatenFood = totalEatenFood + amount;
             weight = weight + amount;
             decreaseCountIfDead();
         }
