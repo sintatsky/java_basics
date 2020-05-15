@@ -26,11 +26,11 @@ public class Cat {
     }
 
 
-    public Cat(Double amount) {
-        this();
+    public void setCatColor(CatColor color) {
     }
 
-    public void setCatColor(CatColor color) {
+    public Cat(Double weight) {
+
     }
 
     public Cat() {
@@ -48,10 +48,8 @@ public class Cat {
         this.name = name;
     }
 
-
     public boolean isAlive() {
         return weight >= minWeight && weight <= maxWeight;
-
     }
 
 

@@ -1,5 +1,6 @@
 public class Loader {
 
+
     private static Cat getKitten() {
         Cat kitten = new Cat(1100.00);
         System.out.println("Родился котенок весом " + kitten.getWeight());
@@ -9,13 +10,13 @@ public class Loader {
 
     public static void main(String[] args) {
 
-
-
+        System.out.println(getKitten().getWeight());
         Cat richard = new Cat();
         richard.setName("Ричард");
         Cat tom = richard;
         tom.setName("Том");
         System.out.println(richard.getName());
+
 
         Cat murka = new Cat("Мурка");
         System.out.println(murka.getWeight());
