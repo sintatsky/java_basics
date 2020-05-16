@@ -25,10 +25,6 @@ public class Cat {
         return name;
     }
 
-
-    public void setCatColor(CatColor color) {
-    }
-
     public Cat(Double weight) {
     }
 

@@ -20,11 +20,29 @@ public class Loader {
         System.out.println(richard.getName());
 
         //==================================================
+
         Cat murka = new Cat("Мурка");
-        System.out.println(murka.getWeight());
-        System.out.println("Количество кошек в начале = " + Cat.getCount());
+        System.out.println("Создали Мурку ");
+        System.out.println("Вес Мурки " + murka.getWeight());
         //цвет кошки
-        murka.setCatColor(CatColor.GREY);
+        CatColor color = CatColor.YELLOW;
+        switch (color){
+            case BLACK:
+                System.out.println("Цвет Мурки - черный ");
+                break;
+            case GREY:
+                System.out.println("Цвет Мурки - серый");
+                break;
+            case YELLOW:
+                System.out.println("Цвет Мурки - желтый");
+                break;
+            case GREEN:
+                System.out.println("Цвет Мурки - зелёный");
+                break;
+
+        }
+        System.out.println("Количество кошек в начале = " + Cat.getCount());
+
         // ==================================================
         System.out.println("Создали кошку");
         Cat vasya = new Cat();
