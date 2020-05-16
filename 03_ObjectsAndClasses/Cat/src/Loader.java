@@ -11,6 +11,7 @@ public class Loader {
     public static void main(String[] args) {
 
         getKitten().getWeight();
+
         //"глубокая копия"
         Cat richard = new Cat();
         richard.setName("Ричард");
@@ -18,7 +19,7 @@ public class Loader {
         tom.setName("Том");
         System.out.println(richard.getName());
 
-
+        //==================================================
         Cat murka = new Cat("Мурка");
         System.out.println(murka.getWeight());
         System.out.println("Количество кошек в начале = " + Cat.getCount());
