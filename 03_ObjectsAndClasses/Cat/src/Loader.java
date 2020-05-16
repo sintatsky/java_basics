@@ -11,6 +11,7 @@ public class Loader {
     public static void main(String[] args) {
 
         getKitten().getWeight();
+        //"глубокая копия"
         Cat richard = new Cat();
         richard.setName("Ричард");
         Cat tom = richard;
@@ -21,6 +22,7 @@ public class Loader {
         Cat murka = new Cat("Мурка");
         System.out.println(murka.getWeight());
         System.out.println("Количество кошек в начале = " + Cat.getCount());
+        //цвет кошки
         murka.setCatColor(CatColor.GREY);
         // ==================================================
         System.out.println("Создали кошку");

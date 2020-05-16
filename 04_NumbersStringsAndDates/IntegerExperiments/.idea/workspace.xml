@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4a79384-2dbe-4d90-be57-1830a2a5558e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../03_ObjectsAndClasses/Cat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../03_ObjectsAndClasses/Cat/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../03_ObjectsAndClasses/Cat/src/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../03_ObjectsAndClasses/Cat/src/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../03_ObjectsAndClasses/Cat/src/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../03_ObjectsAndClasses/Cat/src/Loader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Container.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,10 +54,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1589555825689">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1589626979540">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589555825689" />
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589626979540" />
   </component>
   <component name="masterDetails">
     <states>
