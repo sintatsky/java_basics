@@ -12,7 +12,7 @@ public class Loader {
 
         getKitten().getWeight();
 
-        //"глубокая копия"
+        //"глубокая" копия
         Cat richard = new Cat();
         richard.setName("Ричард");
         Cat tom = richard;
