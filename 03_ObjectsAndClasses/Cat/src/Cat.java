@@ -15,7 +15,25 @@ public class Cat {
     private double amountFood;
     private double totalEatenFood;
 
+    private int age;
     private String name;
+
+    public Cat(int age, String name) {
+        this.age = age;
+        this.name = name;
+    }
+
+    public Cat(Cat other) {
+        this(other.getAge(), other.getName());
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
 
     public void setName(String name) {
         this.name = name;
@@ -23,6 +41,11 @@ public class Cat {
 
     public String getName() {
         return name;
+    }
+
+    public String toString() {
+        return "Кот {" + age + " года" + " по имени " + name + '}';
+
     }
 
     public Cat(Double weight) {
