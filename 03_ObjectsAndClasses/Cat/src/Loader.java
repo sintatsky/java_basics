@@ -28,7 +28,7 @@ public class Loader {
         System.out.println("Создали Мурку ");
         System.out.println("Вес Мурки " + murka.getWeight());
         //цвет кошки
-        CatColor color = CatColor.YELLOW;
+       CatColor color = CatColor.YELLOW;
         switch (color){
             case BLACK:
                 System.out.println("Цвет Мурки - черный ");
@@ -44,6 +44,8 @@ public class Loader {
                 break;
 
         }
+
+
         System.out.println("Количество кошек в начале = " + Cat.getCount());
 
         // ==================================================

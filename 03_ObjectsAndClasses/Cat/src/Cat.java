@@ -27,12 +27,12 @@ public class Cat {
         this(other.getAge(), other.getName());
     }
 
-    public int getAge() {
-        return age;
-    }
-
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public int getAge() {
+        return age;
     }
 
     public void setName(String name) {
@@ -58,6 +58,14 @@ public class Cat {
         maxWeight = 9000.0;
         amountFood = 150.00;
         count++;
+    }
+
+    private CatColor color;
+
+    public void setColor() {
+        this.color = color;
+    }
+    public enum getColor {
     }
 
 
