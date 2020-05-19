@@ -65,8 +65,10 @@ public class Cat {
     public void setColor() {
         this.color = color;
     }
-    public enum getColor {
+    public CatColor getColor() {
+        return color;
     }
+
 
 
     public Cat(String name) {
