@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82301fee-8357-4993-a035-ee33f0ff51a5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../03_ObjectsAndClasses/Cat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../03_ObjectsAndClasses/Cat/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/google-java-format.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IntegerExperiments.iml" beforeDir="false" afterPath="$PROJECT_DIR$/IntegerExperiments.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Container.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,29 +49,60 @@
       <option name="presentableId" value="Default" />
       <updated>1590555015749</updated>
     </task>
+    <task id="LOCAL-00001" summary="Homework 4.1">
+      <created>1590594101968</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590594101968</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Homework 4.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 4.1" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="935" y="165" key="CommitChangelistDialog2" timestamp="1590594101022">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="935" y="165" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590594101022" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1590555034643">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590555034643" />
-    <state width="931" height="277" key="GridCell.Tab.0.bottom" timestamp="1590593503961">
+    <state width="931" height="277" key="GridCell.Tab.0.bottom" timestamp="1590594266270">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="931" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590593503961" />
-    <state width="931" height="277" key="GridCell.Tab.0.center" timestamp="1590593503961">
+    <state width="931" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590594266270" />
+    <state width="931" height="277" key="GridCell.Tab.0.center" timestamp="1590594266270">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="931" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590593503961" />
-    <state width="931" height="277" key="GridCell.Tab.0.left" timestamp="1590593503961">
+    <state width="931" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590594266270" />
+    <state width="931" height="277" key="GridCell.Tab.0.left" timestamp="1590594266269">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="931" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590593503961" />
-    <state width="931" height="277" key="GridCell.Tab.0.right" timestamp="1590593503961">
+    <state width="931" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590594266269" />
+    <state width="931" height="277" key="GridCell.Tab.0.right" timestamp="1590594266270">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="931" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590593503961" />
+    <state width="931" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590594266270" />
+    <state x="826" y="273" key="Vcs.Push.Dialog.v2" timestamp="1590594306174">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="826" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590594306174" />
     <state x="1072" y="189" key="refactoring.ChangeSignatureDialog" timestamp="1590593134062">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
