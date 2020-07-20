@@ -6,6 +6,11 @@ public class Main {
         container.count += 5059191;
         System.out.println(sumDigits(container.count));
 
+        // дополнительное задание*
+        int i = Character.digit('C', 16 );
+        System.out.println("Number of C " + i);
+
+
     }
 
     public static Integer sumDigits(int number) {
