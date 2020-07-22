@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82301fee-8357-4993-a035-ee33f0ff51a5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../MinMaxValue/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MinMaxValue/.idea/google-java-format.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MinMaxValue/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MinMaxValue/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MinMaxValue/MinMaxValue.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MinMaxValue/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595256052538</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Homework 4.1 + дополнительное задание*">
+      <created>1595257379319</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595257379319</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,41 +101,43 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Homework 4.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework 4.1" />
+    <MESSAGE value="Homework 4.1 + дополнительное задание*" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 4.1 + дополнительное задание*" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="935" y="165" key="CommitChangelistDialog2" timestamp="1595256051495">
+    <state x="935" y="165" key="CommitChangelistDialog2" timestamp="1595257378684">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="935" y="165" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595256051495" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1594203810760">
+    <state x="935" y="165" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595257378684" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1595409733937">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594203810760" />
-    <state width="741" height="294" key="GridCell.Tab.0.bottom" timestamp="1595257346835">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1595409733937" />
+    <state width="741" height="294" key="GridCell.Tab.0.bottom" timestamp="1595261207496">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="741" height="294" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595257346835" />
-    <state width="741" height="294" key="GridCell.Tab.0.center" timestamp="1595257346835">
+    <state width="741" height="294" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595261207496" />
+    <state width="741" height="294" key="GridCell.Tab.0.center" timestamp="1595261207496">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="741" height="294" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595257346835" />
-    <state width="741" height="294" key="GridCell.Tab.0.left" timestamp="1595257346835">
+    <state width="741" height="294" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595261207496" />
+    <state width="741" height="294" key="GridCell.Tab.0.left" timestamp="1595261207496">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="741" height="294" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595257346835" />
-    <state width="741" height="294" key="GridCell.Tab.0.right" timestamp="1595257346835">
+    <state width="741" height="294" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595261207496" />
+    <state width="741" height="294" key="GridCell.Tab.0.right" timestamp="1595261207496">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="741" height="294" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595257346835" />
-    <state x="826" y="273" key="Vcs.Push.Dialog.v2" timestamp="1595256189784">
+    <state width="741" height="294" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595261207496" />
+    <state x="826" y="273" key="Vcs.Push.Dialog.v2" timestamp="1595257460282">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="826" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595256189784" />
-    <state x="529" y="279" key="new project wizard" timestamp="1594203854615">
+    <state x="826" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595257460282" />
+    <state x="529" y="279" key="new project wizard" timestamp="1595409736197">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="529" y="279" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1594203854615" />
+    <state x="529" y="279" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1595409736197" />
     <state x="1072" y="189" key="refactoring.ChangeSignatureDialog" timestamp="1590593134062">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
