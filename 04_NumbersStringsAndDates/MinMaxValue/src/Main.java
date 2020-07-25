@@ -4,41 +4,38 @@ public class Main {
     public static void main(String[] args) {
 
 
-        byte by_min = Byte.MIN_VALUE;
-        byte by_max = Byte.MAX_VALUE;
+        byte byMin = Byte.MIN_VALUE;
+        byte byMax = Byte.MAX_VALUE;
 
-        int i_min = Integer.MIN_VALUE;
-        int i_max = Integer.MAX_VALUE;
+        int iMin = Integer.MIN_VALUE;
+        int iMax = Integer.MAX_VALUE;
 
-        short sh_min = Short.MIN_VALUE;
-        short sh_max = Short.MAX_VALUE;
+        short shMin = Short.MIN_VALUE;
+        short shMax = Short.MAX_VALUE;
 
-        long lg_min = Long.MIN_VALUE;
-        long lg_max = Long.MAX_VALUE;
+        long lgMin = Long.MIN_VALUE;
+        long lgMax = Long.MAX_VALUE;
 
-        float fl_min = Float.MIN_VALUE;
-        float fl_max = Float.MAX_VALUE;
+        float flMax = Float.MAX_VALUE;
 
-        double dl_min = Double.MIN_VALUE;
-        double dl_max = Double.MAX_VALUE;
+        double dlMax = Double.MAX_VALUE;
 
-        System.out.println("Минимальное отричательное byte " + by_min);
-        System.out.println("Максимальное положительное byte " + by_max);
+        System.out.println("Минимальное отричательное byte " + byMin);
+        System.out.println("Максимальное положительное byte " + byMax);
 
-        System.out.println("Минимальное отричательное  int " + i_min);
-        System.out.println("Максимальное положительное int " + i_max);
+        System.out.println("Минимальное отричательное  int " + iMin);
+        System.out.println("Максимальное положительное int " + iMax);
 
-        System.out.println("Минимальное отричательное short " + sh_min);
-        System.out.println("Максимальное положительное short " + sh_max);
+        System.out.println("Минимальное отричательное short " + shMin);
+        System.out.println("Максимальное положительное short " + shMax);
 
-        System.out.println("Минимальное отричательное  long " + lg_min);
-        System.out.println("Максимальное положительное long " + lg_max);
+        System.out.println("Минимальное отричательное  long " + lgMin);
+        System.out.println("Максимальное положительное long " + lgMax);
 
-        System.out.println("Минимальное отричательное float " + fl_min);
-        System.out.println("Максимальное положительное float " + fl_max);
 
-        System.out.println("Минимальное отричательное  double " + dl_min);
-        System.out.println("Максимальное положительное double " + dl_max);
+        System.out.println("Максимальное положительное float " + flMax);
+
+        System.out.println("Максимальное положительное double " + dlMax);
 
     }
 }
