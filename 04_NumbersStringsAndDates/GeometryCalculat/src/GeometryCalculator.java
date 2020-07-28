@@ -4,15 +4,14 @@ public class GeometryCalculator {
 
         double area = Math.PI * Math.pow(radius, 2);
         System.out.println("Площадь круга равна " + area);
-        return 0;
+        return area;
     }
 
     public static double getSphereVolume(double radius) {
 
         double sphereVolume = ( 4.0 / 3.0 ) * Math.PI * Math.pow( radius, 3 );
         System.out.println("Объем сферы раве " + sphereVolume);
-
-        return 0;
+        return sphereVolume;
     }
 
     public static boolean isTriangleRightAngled(double a, double b, double c) {
@@ -29,7 +28,7 @@ public class GeometryCalculator {
         double p = (a + b + c)/2;
         double triangleSquare = Math.sqrt(p * (p - a) * (p-b) * (p-c));
         System.out.println("Площадь треугольника равна " + triangleSquare);
-        return 0;
+        return triangleSquare;
     }
 
 }
