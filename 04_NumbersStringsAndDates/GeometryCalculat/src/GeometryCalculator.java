@@ -15,11 +15,12 @@ public class GeometryCalculator {
     }
 
     public static boolean isTriangleRightAngled(double a, double b, double c) {
-        boolean triangleRightAngled;
+        boolean triangleRightAngled = false;
         if (Math.pow( c, 2) == Math.pow(a, 2) + Math.pow(b, 2))
     {
         triangleRightAngled = true;}
-        return false;
+        System.out.println("Возможно ли построение треугольника по трём длинам сторон? " + triangleRightAngled);
+        return triangleRightAngled;
     }
 
     // перед расчетом площади рекомендуется проверить возможен ли такой треугольник
