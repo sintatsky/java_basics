@@ -4,14 +4,14 @@ import java.util.Scanner;
 
 public class Main {
   public static void main(String[] args) {
-      int box = 0;
+      int container = 0;
       try (Scanner scanner = new Scanner(System.in)) {
           System.out.println("How many boxes do you need deliver?");
-          box = scanner.nextInt();
+          container = scanner.nextInt();
       } catch (Exception e) {
           e.printStackTrace();
       }
-      Cargo cargo = new Cargo(box);
+      Cargo cargo = new Cargo(container);
       System.out.println(cargo);
       cargo.result();
 
@@ -22,14 +22,16 @@ class Cargo{
     private int truck;
     private int container;
     private int box;
+    final int CONTAINERS_IN_TRUCK = 12; 
+    final int BOXES_IN_CONTAINER = 27;
 
     public Cargo(int box){
         this.box = box;
         if (box != 0) {
-            container = box % 27 == 0 ? box / 27 : box / 27 + 1;
+            container = box % BOXES_IN_CONTAINER == 0 ? box / BOXES_IN_CONTAINER : box / BOXES_IN_CONTAINER + 1;
         }
         if (container != 0){
-            truck = container % 12 == 0 ? container / 12 : container / 12 + 1;
+            truck = container % CONTAINERS_IN_TRUCK == 0 ? container / CONTAINERS_IN_TRUCK : container / CONTAINERS_IN_TRUCK + 1;
         }
     }
     public int getTruck(){
@@ -44,15 +46,15 @@ class Cargo{
     public void result(){
         int b = 1;
         int c = 1;
-        for (int i = 1; i <= truck; i++){
+        for (int i = 1; i <= container; i++){
 
             System.out.println("Truck number " + i);
             int j = 0;
-            while (j < 12 && c <= container){
+            while (j < CONTAINERS_IN_TRUCK && c <= truck){
 
                 System.out.println("Container number " + c);
                 int k = 0;
-                while (k < 27 && b <= box){
+                while (k < BOXES_IN_CONTAINER && b <= box){
                     System.out.println("Box number " + b);
                     k++;
                     b++;
