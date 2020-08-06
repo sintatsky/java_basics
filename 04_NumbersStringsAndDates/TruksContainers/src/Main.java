@@ -1,4 +1,5 @@
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 
@@ -6,7 +7,7 @@ public class Main {
   public static void main(String[] args) {
       int container = 0;
       try (Scanner scanner = new Scanner(System.in)) {
-          System.out.println("How many boxes do you need deliver?");
+          System.out.println("How many containers you have?");
           container = scanner.nextInt();
       } catch (Exception e) {
           e.printStackTrace();
@@ -22,12 +23,12 @@ class Cargo{
     private int truck;
     private int container;
     private int box;
-    final int CONTAINERS_IN_TRUCK = 12; 
+    final int CONTAINERS_IN_TRUCK = 12;
     final int BOXES_IN_CONTAINER = 27;
 
     public Cargo(int box){
         this.box = box;
-        if (box != 0) {
+       if (box != 0) {
             container = box % BOXES_IN_CONTAINER == 0 ? box / BOXES_IN_CONTAINER : box / BOXES_IN_CONTAINER + 1;
         }
         if (container != 0){
@@ -44,26 +45,18 @@ class Cargo{
         return box;
     }
     public void result(){
-        int b = 1;
-        int c = 1;
-        for (int i = 1; i <= container; i++){
+        int j=1;
+        int i;
+        for (i = 1; i <= container; i++){
 
-            System.out.println("Truck number " + i);
-            int j = 0;
-            while (j < CONTAINERS_IN_TRUCK && c <= truck){
+           if (i % 27 == 0 && j % 12 == 0){
+               container++;
+               truck++;
+               System.out.println("Контейнер " + container);
+               System.out.println("Грузовиков " + truck);
 
-                System.out.println("Container number " + c);
-                int k = 0;
-                while (k < BOXES_IN_CONTAINER && b <= box){
-                    System.out.println("Box number " + b);
-                    k++;
-                    b++;
-                }
-                j++;
-                c++;
-                System.out.println();
             }
         }
     }
+    }
 
-}

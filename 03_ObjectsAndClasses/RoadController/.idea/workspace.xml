@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c231ce39-21c2-4bee-9a12-9fac9e2dfe2c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Cat/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cat/src/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Cat/src/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cat/src/CatColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Cat/src/CatColor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cat/src/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Cat/src/Loader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../04_NumbersStringsAndDates/TruksContainers/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../04_NumbersStringsAndDates/TruksContainers/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +65,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549966201469" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Cat" />
+    <property name="last_opened_file_path" value="D:/skills/intsv2205" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -200,10 +193,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="1218" y="322" key="FileChooserDialogImpl" timestamp="1588519464370">
+    <state x="1218" y="322" key="FileChooserDialogImpl" timestamp="1596641079788">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1218" y="322" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588519464370" />
+    <state x="1218" y="322" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596641079788" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
