@@ -28,7 +28,7 @@ public class Code {
     char y = 'Y';
     char z = 'Z';
 
-    int code = (int) a;
+    int code1 = (int) a;
     int code2 = (int) b;
     int code3 = (int) c;
     int code4 = (int) d;
@@ -54,7 +54,7 @@ public class Code {
     int code24 = (int) y;
     int code25 = (int) z;
 
-    System.out.println( "A - " + code);
+    System.out.println( "A - " + code1);
     System.out.println("B - " + code2);
     System.out.println("C - " + code3);
     System.out.println("D - " + code4);
