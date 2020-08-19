@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74551ef3-e027-45c0-ba92-5e70ee5f73c4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loader.java" afterDir="false" />
     </list>
@@ -39,7 +37,7 @@
     <property name="FullScreen" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Code" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -162,26 +160,26 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="865" y="372" key="FileChooserDialogImpl" timestamp="1597837884586">
+    <state x="865" y="372" key="FileChooserDialogImpl" timestamp="1597839283489">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="865" y="372" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597837884586" />
-    <state width="827" height="399" key="GridCell.Tab.0.bottom" timestamp="1597837788631">
+    <state x="865" y="372" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597839283489" />
+    <state width="956" height="225" key="GridCell.Tab.0.bottom" timestamp="1597840050927">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="827" height="399" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597837788631" />
-    <state width="827" height="399" key="GridCell.Tab.0.center" timestamp="1597837788631">
+    <state width="956" height="225" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597840050927" />
+    <state width="956" height="225" key="GridCell.Tab.0.center" timestamp="1597840050927">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="827" height="399" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597837788631" />
-    <state width="827" height="399" key="GridCell.Tab.0.left" timestamp="1597837788631">
+    <state width="956" height="225" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597840050927" />
+    <state width="956" height="225" key="GridCell.Tab.0.left" timestamp="1597840050926">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="827" height="399" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597837788631" />
-    <state width="827" height="399" key="GridCell.Tab.0.right" timestamp="1597837788631">
+    <state width="956" height="225" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597840050926" />
+    <state width="956" height="225" key="GridCell.Tab.0.right" timestamp="1597840050927">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="827" height="399" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597837788631" />
+    <state width="956" height="225" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597840050927" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
