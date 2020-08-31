@@ -1,25 +1,16 @@
-import java.util.Scanner;
 
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Введите номер кредитной карты");
+        System.out.println("Введите номер кредитной карты ");
         String text = scanner.nextLine();
-        String Str = new String("4008 1234 5678 8912");
-        System.out.println(text.replaceAll("4008 1234 5678", "Номер кредитной карты ***"));
 
-
-        }
-
-  public static String searchAndReplaceDiamonds(String text, String placeholder) {
-        String safe = searchAndReplaceDiamonds("Номер кредитной карты <4008 1234 5678> 8912", "***");
-
-    return safe;
-
+        String safe = "Номер кредитной карты <4008 1234 5678>  ";
+        int diamond1 = safe.indexOf('<');
+        int diamond2 = safe.indexOf('>');
+        String placeholder = "***";
+        System.out.println(safe.substring(0, diamond1) + placeholder + safe.substring(diamond2 + 1));
     }
-
 }
-
-
-
