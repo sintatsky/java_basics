@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="74551ef3-e027-45c0-ba92-5e70ee5f73c4" name="Default" comment="Домашняя работа 4.5.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599756611757</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Домашняя работа 4.5.1">
+      <created>1600742673496</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600742673496</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -180,10 +186,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Домашняя работа 4.5.1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="743" y="211" key="CommitChangelistDialog2" timestamp="1599756610656">
+    <state x="743" y="211" key="CommitChangelistDialog2" timestamp="1600742672457">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="743" y="211" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1599756610656" />
+    <state x="743" y="211" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1600742672457" />
     <state x="865" y="372" key="FileChooserDialogImpl" timestamp="1597839283489">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -204,14 +210,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="892" height="232" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600742650160" />
-    <state x="760" y="350" key="Vcs.Push.Dialog.v2" timestamp="1599756658687">
+    <state x="760" y="350" key="Vcs.Push.Dialog.v2" timestamp="1600742685702">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="760" y="350" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599756658687" />
-    <state x="551" y="237" key="new project wizard" timestamp="1597931794906">
+    <state x="760" y="350" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600742685702" />
+    <state x="551" y="237" key="new project wizard" timestamp="1600743193909">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="237" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1597931794906" />
+    <state x="551" y="237" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1600743193909" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
