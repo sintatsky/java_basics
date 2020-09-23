@@ -15,7 +15,10 @@ public class Main {
             "seeking to use it as a personal piggy bank to reward a politically " +
             "powerful constituency weeks before Election Day.\n";
 
-    String[] words = text.split("\\s");
+    String string = text.replaceAll("\\p{Punct}","" +
+            "\n");
+    System.out.println(string);
+    String[] words = string.split("\\s");
     for (int i = 0; i < words.length; i++){
         System.out.println(words[i]);
     }

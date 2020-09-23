@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74551ef3-e027-45c0-ba92-5e70ee5f73c4" name="Default" comment="Домашняя работа 4.5.1">
+      <change afterPath="$PROJECT_DIR$/../PhoneNumber/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhoneNumber/.idea/google-java-format.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhoneNumber/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhoneNumber/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhoneNumber/PhoneNumber.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PhoneNumber/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
