@@ -23,6 +23,6 @@ public class Loader {
     System.out.println("Общая сумма их заработка " + moneyAmount);
 
 
-     }
+  }
   }
 
