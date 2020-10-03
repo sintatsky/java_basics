@@ -9,14 +9,13 @@ public class Loader {
 
 
       DateFormat dateFormat = new SimpleDateFormat("EEEE d MMM y");
+
       Calendar calendar = Calendar.getInstance();
-      calendar.set(1989,1, 23);
-      int yearsOld = 0;
-      int nowYears = 31;
-      int i = 0;
-      while (yearsOld <= nowYears){
-          yearsOld = yearsOld + 1;
-          calendar.add(calendar.YEAR, i++);
+      calendar.set(1988,1, 23);
+
+      for (int i = 0; i <= 31; i++ ){
+
+          calendar.add(calendar.YEAR, 1);
           System.out.println(dateFormat.format(calendar.getTime()));
       }
 
