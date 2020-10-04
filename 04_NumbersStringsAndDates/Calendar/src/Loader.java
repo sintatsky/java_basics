@@ -22,8 +22,8 @@ public class Loader {
 
        while (today.after(birthday)) {
 
-          birthday1 = birthday1 +1;
-          calendar.add(calendar.YEAR, 1);
+          birthday1 = birthday1 + 1;
+          calendar.add(Calendar.YEAR, 1);
           System.out.println(dateFormat.format(calendar.getTime()));
       }
 
