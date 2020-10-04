@@ -9,8 +9,8 @@ public class TelefonNumber {
 
         StringBuilder phone1 = new StringBuilder(phone.replaceAll("[^0-9]",""));
 
-        if (phone1.substring(0) == "8") {
-            phone1.setCharAt(0,'7');
+        if (phone1.substring(0).equals("8")) {
+            phone1.setCharAt(0, '7');
         }
 
         if (phone1.length() < 10 || phone1.length() > 11 ){
