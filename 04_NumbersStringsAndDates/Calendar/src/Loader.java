@@ -7,6 +7,9 @@ import java.util.Date;
 public class Loader {
   public static void main(String[] args) {
 
+      DateFormat dateFormat = new SimpleDateFormat("EEEE d MMM y");
+      Calendar calendar = Calendar.getInstance();
+
       int day = 23;
       int month = Calendar.FEBRUARY;
       int year = 1989;
@@ -14,8 +17,7 @@ public class Loader {
       Date birthday = new Date(0);
       Date today = new Date(31);
 
-      DateFormat dateFormat = new SimpleDateFormat("EEEE d MMM y");
-      Calendar calendar = Calendar.getInstance();
+
       calendar.set(year, month, day);
       calendar.setTime(new Date());
       int birthday1 = calendar.get(Calendar.DATE);
