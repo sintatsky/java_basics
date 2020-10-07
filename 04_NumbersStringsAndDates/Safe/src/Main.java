@@ -8,8 +8,12 @@ public class Main {
         String text = scanner.nextLine();
 
         String safe = "Номер кредитной карты <4008 1234 5678>  ";
-        System.out.println(safe.replaceAll("<4008 1234 5678>", "***"));
-
-
+        int diamond1 = safe.indexOf('<');
+        int diamond2 = safe.indexOf('>');
+        String placeholder = "***";
+        System.out.println(safe.substring(0, diamond1) + placeholder + safe.substring(diamond2 + 1));
     }
+
+
+
 }
