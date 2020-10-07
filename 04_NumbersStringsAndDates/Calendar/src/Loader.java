@@ -14,19 +14,17 @@ public class Loader {
       int month = Calendar.FEBRUARY;
       int year = 1989;
 
-      Date birthday = new Date(0);
-      Date today = new Date(31);
+      int birthday = 0;
+      int today = 31;
+
 
 
       calendar.set(year, month, day);
-      calendar.setTime(new Date());
-      int birthday1 = calendar.get(Calendar.DATE);
 
-       while (today.after(birthday)) {
-
-          birthday1 = birthday1 + 1;
-          calendar.add(Calendar.YEAR, 1);
-          System.out.println(dateFormat.format(calendar.getTime()));
+       while (birthday < today) {
+              birthday = birthday + 1;
+              calendar.add(Calendar.YEAR, 1);
+              System.out.println(dateFormat.format(calendar.getTime()));
       }
 
 

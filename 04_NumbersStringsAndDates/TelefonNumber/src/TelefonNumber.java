@@ -15,6 +15,7 @@ public class TelefonNumber {
         }
 
         if(phone1.length() == 11);{
+            phone1.charAt(0);
             phone1.replace(0, 1, "7");}
 
         if (phone1.length() < 10 || phone1.length() > 11 ){
