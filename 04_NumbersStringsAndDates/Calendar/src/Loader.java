@@ -17,8 +17,9 @@ public class Loader {
 
       while (birthday.before(today)) {
           Date date = birthday.getTime();
-          System.out.println(sdf.format(date));
           birthday.add(Calendar.YEAR, 1);
+          System.out.println(sdf.format(date));
+
       }
 
 
