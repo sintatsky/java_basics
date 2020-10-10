@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89d75c12-cf8e-4426-bcc0-1b25fa7908bc" name="Default Changelist" comment="" />
+    <list default="true" id="89d75c12-cf8e-4426-bcc0-1b25fa7908bc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/AverageTemperature/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,10 +36,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1082" y="272" key="FileChooserDialogImpl" timestamp="1602118829997">
+    <state x="1082" y="272" key="FileChooserDialogImpl" timestamp="1602311913710">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1082" y="272" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602118829997" />
+    <state x="1082" y="272" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602311913710" />
     <state x="685" y="151" key="new project wizard" timestamp="1602118833726">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
