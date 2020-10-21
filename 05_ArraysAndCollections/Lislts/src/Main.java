@@ -19,19 +19,20 @@ public class Main {
     String editName;
     int deleteDeal;
 
-
-    System.out.println("ДОБРО ПОЖАЛОВАТЬ. ВЫБЕРИТЕ ДЕЙСТВИЕ:  \n\nLIST - вывести список дел на экран  " +
-            "\nADD- пополнить список дел" +
-            "\nEDIT - заменить дело с указанным номером; " +
-            "\nDELETE - удалить дело из списка " +
-            "\nEXIT - выход");
+String text = "ДОБРО ПОЖАЛОВАТЬ В СПИСОК ДЕЛ НА ДЕНЬ. ВЫБЕРИТЕ ДЕЙСТВИЕ:  \n\nLIST - вывести список дел на экран  " +
+        "\nADD - пополнить список дел" +
+        "\nEDIT - заменить дело с указанным номером; " +
+        "\nDELETE - удалить дело из списка " +
+        "\nEXIT - выход";
+    System.out.println(text);
 
     System.out.println("\nВВОД: ");
 
 
     while (true) {
       Scanner sc = new Scanner(System.in);
-      switch (sc.nextLine()) {
+      switch (sc.nextLine())
+       {
         case "LIST":
           System.out.println("СПИСОК ДЕЛ: ");
           for (String s : todoList) {
@@ -69,7 +70,7 @@ public class Main {
           Scanner scanner2 = new Scanner(System.in);
           dealNumber = scanner2.nextInt();
           todoList.remove(dealNumber);
-          System.out.println("Введите, новое задание вместо старого");
+          System.out.println("Введите новое задание вместо старого");
           Scanner scanner3 = new Scanner(System.in);
           editName = scanner3.nextLine();
           todoList.add(dealNumber, editName);
