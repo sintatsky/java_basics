@@ -5,12 +5,6 @@ import java.util.TreeSet;
 public class Main {
     public static void main(String[] args) throws IOException {
         String addedEmail;
-
-        System.out.println("Выберите действие и введите одну из комманд:  " +
-                "\nLIST - вывести на экран список электронных адресов " +
-                "\nADD - добавить электронный адрес  " +
-                "\nEXIT - выход");
-
         TreeSet<String> emails = new TreeSet<>() {{
             add("hello@skillbox.ru");
             add("allday@skillbox.ru");
@@ -18,6 +12,11 @@ public class Main {
             add("lertur@skillbox.ru");
             add("support@skillbox.ru");
         }};
+
+        System.out.println("Выберите действие и введите одну из комманд:  " +
+                "\nLIST - вывести на экран список электронных адресов " +
+                "\nADD - добавить электронный адрес  " +
+                "\nEXIT - выход");
 
         while (true){
             Scanner sc = new Scanner(System.in);
