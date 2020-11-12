@@ -1,7 +1,7 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Scanner;
 import java.io.IOException;
+
 
 
 public class Main {
@@ -20,6 +20,8 @@ public class Main {
         String editName;
         int deleteDeal;
 
+
+
         String text = "WELCOME TO THE DAY TO-DO LIST. SELECT THE ACTION: " +
                 "\n\nLIST - display the to-do list on the screen \nADD - add to the to-do list" +
                 "\nEDIT - replace the case with the specified number;" +
@@ -32,22 +34,32 @@ public class Main {
             Scanner sc = new Scanner(System.in);
             String input = sc.nextLine();
             String [] words = input.split("\\s+", 3);
-            if (input.contains("[0-9]")){
 
-                ?????????????????
+            if (words[1].contains("[0-9]")); {
+                System.out.println("Enter which case you want to add ");
+                Scanner scanner2 = new Scanner(System.in);
+                nameOfDeal = scanner2.nextLine();
+                System.out.println("Enter the index of the case you want add");
+                dealNumber = scanner2.nextInt();
+                todoList.add(dealNumber,nameOfDeal);
+                for (String s : todoList) {
+                    System.out.println(todoList.indexOf(s) + " " + s);
+                }
 
 
-            }
 
 
-            switch (input) {
-                case "LIST":
+            switch (input){
+
+            case "LIST":
                     System.out.println("TO-DO LIST: ");
                     for (String s : todoList) {
                         System.out.println(todoList.indexOf(s) + " " + s);
                     }
 
                     continue;
+
+
 
                 case "ADD":
                     System.out.println("Enter which case you want to add ");
@@ -60,7 +72,7 @@ public class Main {
                         System.out.println(todoList.indexOf(s) + " " + s);
                     }
 
-                    continue;
+
 
                 case "DELETE":
                     System.out.println("Enter the index of the case you want to delete");
@@ -95,7 +107,9 @@ public class Main {
                     System.out.println("UP TO NEW MEETINGS!");
                     break;
             }
-            sc.close();
+                sc.close();
+
         }
+
     }
-}
+}}
