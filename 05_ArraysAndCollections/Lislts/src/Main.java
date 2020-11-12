@@ -37,10 +37,10 @@ public class Main {
 
             if (words[1].contains("[0-9]")); {
                 System.out.println("Enter which case you want to add ");
-                Scanner scanner2 = new Scanner(System.in);
-                nameOfDeal = scanner2.nextLine();
+                Scanner scanner1 = new Scanner(System.in);
+                nameOfDeal = scanner1.nextLine();
                 System.out.println("Enter the index of the case you want add");
-                dealNumber = scanner2.nextInt();
+                dealNumber = scanner1.nextInt();
                 todoList.add(dealNumber,nameOfDeal);
                 for (String s : todoList) {
                     System.out.println(todoList.indexOf(s) + " " + s);
@@ -63,8 +63,8 @@ public class Main {
 
                 case "ADD":
                     System.out.println("Enter which case you want to add ");
-                    Scanner scanner1 = new Scanner(System.in);
-                    nameOfDeal = scanner1.nextLine();
+                    Scanner scanner2 = new Scanner(System.in);
+                    nameOfDeal = scanner2.nextLine();
                     todoList.add(nameOfDeal);
                     System.out.println("The case has been added and is listed under No.: " + todoList.size());
                     System.out.println();
@@ -76,8 +76,8 @@ public class Main {
 
                 case "DELETE":
                     System.out.println("Enter the index of the case you want to delete");
-                    Scanner scanner4 = new Scanner(System.in);
-                    deleteDeal = scanner4.nextInt();
+                    Scanner scanner3 = new Scanner(System.in);
+                    deleteDeal = scanner3.nextInt();
                     todoList.remove(deleteDeal);
                     for (String s : todoList) {
                         System.out.println(todoList.indexOf(s) + " " + s);
@@ -87,12 +87,12 @@ public class Main {
                 case "EDIT":
 
                     System.out.println("Enter index of the case you want to change");
-                    Scanner scanner2 = new Scanner(System.in);
-                    dealNumber = scanner2.nextInt();
+                    Scanner scanner4 = new Scanner(System.in);
+                    dealNumber = scanner4.nextInt();
                     todoList.remove(dealNumber);
                     System.out.println("Enter a new task instead of the old one");
-                    Scanner scanner3 = new Scanner(System.in);
-                    editName = scanner3.nextLine();
+                    Scanner scanner5 = new Scanner(System.in);
+                    editName = scanner5.nextLine();
                     todoList.add(dealNumber, editName);
                     for (String s : todoList) {
                         System.out.println(todoList.indexOf(s) + " " + s);
