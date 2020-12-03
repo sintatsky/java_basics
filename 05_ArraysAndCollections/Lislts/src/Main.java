@@ -35,7 +35,7 @@ public class Main {
             String input = sc.nextLine();
             String [] words = input.split("\\s+", 3);
 
-            if (words[1].contains("[0-9]")); {
+            if (words[0].contains("[0-9]")); {
                 System.out.println("Enter which case you want to add ");
                 Scanner scanner1 = new Scanner(System.in);
                 nameOfDeal = scanner1.nextLine();
