@@ -8,11 +8,10 @@ public class Main {
     public static void main(String[] args) throws IOException {
 
         ArrayList<String> todoList = new ArrayList<>() {{
-            add(0, "Get up in the morning");
-            add(1, "Wash up");
-            add(2, "Put yourself in order");
-            add(3, "Put the planet in order");
-            add(4, "Weed out the baobabs");
+            add(0, "Купить ёлку");
+            add(1, "Купить подарки");
+            add(2, "Положить подарки под ёлку");
+
         }};
 
         String nameOfDeal;
@@ -21,95 +20,74 @@ public class Main {
         int deleteDeal;
 
 
+        System.out.println("Выберите действие: \nLIST \nADD \nEDIT \nDELETE \nEXIT");
 
-        String text = "WELCOME TO THE DAY TO-DO LIST. SELECT THE ACTION: " +
-                "\n\nLIST - display the to-do list on the screen \nADD - add to the to-do list" +
-                "\nEDIT - replace the case with the specified number;" +
-                "\nDELETE - delete a case from the list" +
-                "\nEXIT - exit";
-        System.out.println(text);
-        System.out.println("\nENTER: ");
 
         while (true) {
             Scanner sc = new Scanner(System.in);
-            String input = sc.nextLine();
-            String [] words = input.split("\\s+", 3);
+            String task = sc.nextLine();
+            switch (task){
 
-            if (words[0].contains("[0-9]")); {
-                System.out.println("Enter which case you want to add ");
-                Scanner scanner1 = new Scanner(System.in);
-                nameOfDeal = scanner1.nextLine();
-                System.out.println("Enter the index of the case you want add");
-                dealNumber = scanner1.nextInt();
-                todoList.add(dealNumber,nameOfDeal);
-                for (String s : todoList) {
-                    System.out.println(todoList.indexOf(s) + " " + s);
+                    case "LIST":
+                        System.out.println("Ваш список дел: ");
+                        for (String s : todoList) {
+                            System.out.println(todoList.indexOf(s) + " " + s);
+                        }
+
+                        continue;
+
+
+
+                  case "ADD":
+
+                        String[] words = task.split("\\s+", 3);
+                        System.out.println("Что бы Вы хотели добавить?");
+                        Scanner scanner2 = new Scanner(System.in);
+                        nameOfDeal = scanner2.nextLine();
+                        todoList.add(nameOfDeal);
+                        for (String s : todoList) {
+                            System.out.println(todoList.indexOf(s) + " " + s);
+                        }
+                        continue;
+
+
+
+                    case "DELETE":
+                        System.out.println("Введите индекс дела, которое хотите удалить");
+                        Scanner scanner3 = new Scanner(System.in);
+                        deleteDeal = scanner3.nextInt();
+                        todoList.remove(deleteDeal);
+                        for (String s : todoList) {
+                            System.out.println(todoList.indexOf(s) + " " + s);
+                        }
+                        continue;
+
+                    case "EDIT":
+
+                        System.out.println("Введите номер дело, которое хотите заменить");
+                        Scanner scanner4 = new Scanner(System.in);
+                        dealNumber = scanner4.nextInt();
+                        todoList.remove(dealNumber);
+                        System.out.println("Введите новую задачу");
+                        Scanner scanner5 = new Scanner(System.in);
+                        editName = scanner5.nextLine();
+                        todoList.add(dealNumber, editName);
+                        for (String s : todoList) {
+                            System.out.println(todoList.indexOf(s) + " " + s);
+                        }
+                        continue;
+
+                    default:
+                        System.out.println("Попробуйте еще раз");
+                        break;
+
+                    case "EXIT":
+                        System.out.println("До скорых встреч! С наступающим!");
+                        break;
                 }
-
-
-
-
-            switch (input){
-
-            case "LIST":
-                    System.out.println("TO-DO LIST: ");
-                    for (String s : todoList) {
-                        System.out.println(todoList.indexOf(s) + " " + s);
-                    }
-
-                    continue;
-
-
-
-                case "ADD":
-                    System.out.println("Enter which case you want to add ");
-                    Scanner scanner2 = new Scanner(System.in);
-                    nameOfDeal = scanner2.nextLine();
-                    todoList.add(nameOfDeal);
-                    System.out.println("The case has been added and is listed under No.: " + todoList.size());
-                    System.out.println();
-                    for (String s : todoList) {
-                        System.out.println(todoList.indexOf(s) + " " + s);
-                    }
-
-
-
-                case "DELETE":
-                    System.out.println("Enter the index of the case you want to delete");
-                    Scanner scanner3 = new Scanner(System.in);
-                    deleteDeal = scanner3.nextInt();
-                    todoList.remove(deleteDeal);
-                    for (String s : todoList) {
-                        System.out.println(todoList.indexOf(s) + " " + s);
-                    }
-                    continue;
-
-                case "EDIT":
-
-                    System.out.println("Enter index of the case you want to change");
-                    Scanner scanner4 = new Scanner(System.in);
-                    dealNumber = scanner4.nextInt();
-                    todoList.remove(dealNumber);
-                    System.out.println("Enter a new task instead of the old one");
-                    Scanner scanner5 = new Scanner(System.in);
-                    editName = scanner5.nextLine();
-                    todoList.add(dealNumber, editName);
-                    for (String s : todoList) {
-                        System.out.println(todoList.indexOf(s) + " " + s);
-                    }
-                    continue;
-
-                default:
-                    System.out.println("Try again");
-                    break;
-
-                case "EXIT":
-                    System.out.println("UP TO NEW MEETINGS!");
-                    break;
-            }
                 sc.close();
 
-        }
+            }
 
+        }
     }
-}}
