@@ -26,7 +26,8 @@ public class Main {
         while (true) {
             Scanner sc = new Scanner(System.in);
             String task = sc.nextLine();
-            switch (task){
+            String[] words = task.split("\\s+", 3);
+            switch (words[0]){
 
                     case "LIST":
                         System.out.println("Ваш список дел: ");
@@ -39,8 +40,6 @@ public class Main {
 
 
                   case "ADD":
-
-                        String[] words = task.split("\\s+", 3);
                         System.out.println("Что бы Вы хотели добавить?");
                         Scanner scanner2 = new Scanner(System.in);
                         nameOfDeal = scanner2.nextLine();
