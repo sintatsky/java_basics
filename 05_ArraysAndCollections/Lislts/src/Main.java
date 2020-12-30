@@ -40,13 +40,24 @@ public class Main {
 
 
                   case "ADD":
-                        System.out.println("Что бы Вы хотели добавить?");
-                        Scanner scanner2 = new Scanner(System.in);
-                        nameOfDeal = scanner2.nextLine();
-                        todoList.add(nameOfDeal);
-                        for (String s : todoList) {
-                            System.out.println(todoList.indexOf(s) + " " + s);
-                        }
+
+                      if (words[1].matches("\\w+")){
+                          int index = Integer.parseInt(words[1]);
+                          todoList.add(index, words[2]);
+
+                          for (String s : todoList) {
+                              System.out.println(todoList.indexOf(s) + " " + s);
+                          }}
+
+
+                      else {
+                          todoList.add(words[0]);
+                          for (String s : todoList) {
+                              System.out.println(todoList.indexOf(s) + " " + s);
+                          }
+
+                      }
+
                         continue;
 
 
