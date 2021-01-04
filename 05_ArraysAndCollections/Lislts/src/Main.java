@@ -38,27 +38,26 @@ public class Main {
                         continue;
 
 
+                case "ADD":
 
-                  case "ADD":
+                    if (words[1].matches("\\w+")){
+                        int index = Integer.parseInt(words[1]);
+                        todoList.add(index, words[2]);
 
-                      if (words[1].matches("\\w+")){
-                          int index = Integer.parseInt(words[1]);
-                          todoList.add(index, words[2]);
+                        for (String s : todoList) {
+                            System.out.println(todoList.indexOf(s) + " " + s);
+                        }}
 
-                          for (String s : todoList) {
-                              System.out.println(todoList.indexOf(s) + " " + s);
-                          }}
+                    else {
+                        todoList.add(words[1]);
+                    for (String s : todoList) {
+                        System.out.println(todoList.indexOf(s) + " " + s);
+                    }}
+                    continue;
 
 
-                      else {
-                          todoList.add(words[0]);
-                          for (String s : todoList) {
-                              System.out.println(todoList.indexOf(s) + " " + s);
-                          }
 
-                      }
 
-                        continue;
 
 
 
