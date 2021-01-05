@@ -38,7 +38,7 @@ public class Main {
                         continue;
 
 
-                case "ADD":
+                    case "ADD":
 
                     if (words[1].matches("\\d+")){
                         int index = Integer.parseInt(words[1]);
@@ -48,15 +48,19 @@ public class Main {
                             System.out.println(todoList.indexOf(s) + " " + s);
                         }}
 
+                   else if (words[1].matches("\\d+") & Integer.parseInt(words[1]) < todoList.size()) {
+                        todoList.add(words[2]);
+                        for (String s : todoList) {
+                            System.out.println(todoList.indexOf(s) + " " + s);
+                        }
+                    }
+
                     else {
                         todoList.add(words[1]);
                     for (String s : todoList) {
                         System.out.println(todoList.indexOf(s) + " " + s);
                     }}
                     continue;
-
-
-
 
 
 
