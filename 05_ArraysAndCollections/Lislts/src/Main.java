@@ -40,7 +40,7 @@ public class Main {
 
                 case "ADD":
 
-                    if (words[1].matches("\\w+")){
+                    if (words[1].matches("\\d+")){
                         int index = Integer.parseInt(words[1]);
                         todoList.add(index, words[2]);
 
