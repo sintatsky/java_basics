@@ -14,12 +14,6 @@ public class Main {
 
         }};
 
-        String nameOfDeal;
-        int dealNumber;
-        String editName;
-        int deleteDeal;
-
-
         System.out.println("Выберите действие: \nLIST \nADD \nEDIT \nDELETE \nEXIT");
 
 
@@ -38,7 +32,7 @@ public class Main {
                         continue;
 
 
-                    case "ADD":
+                     case "ADD":
 
                     if (words[1].matches("\\d+")){
                         int index = Integer.parseInt(words[1]);
@@ -63,34 +57,34 @@ public class Main {
                     continue;
 
 
-
-
                     case "DELETE":
-                        System.out.println("Введите индекс дела, которое хотите удалить");
-                        Scanner scanner3 = new Scanner(System.in);
-                        deleteDeal = scanner3.nextInt();
-                        todoList.remove(deleteDeal);
-                        for (String s : todoList) {
-                            System.out.println(todoList.indexOf(s) + " " + s);
+                        if (words[1].matches("\\d+")){
+                            int index = Integer.parseInt(words[1]);
+                            todoList.remove(index);
+                            System.out.println("Дело " + index + " удалено");
+
+                            for (String s : todoList) {
+                                System.out.println(todoList.indexOf(s) + " " + s);
+                            }
                         }
                         continue;
+
+
 
                     case "EDIT":
 
-                        System.out.println("Введите номер дело, которое хотите заменить");
-                        Scanner scanner4 = new Scanner(System.in);
-                        dealNumber = scanner4.nextInt();
-                        todoList.remove(dealNumber);
-                        System.out.println("Введите новую задачу");
-                        Scanner scanner5 = new Scanner(System.in);
-                        editName = scanner5.nextLine();
-                        todoList.add(dealNumber, editName);
-                        for (String s : todoList) {
-                            System.out.println(todoList.indexOf(s) + " " + s);
-                        }
+                        if (words[1].matches("\\d+")){
+                            int index = Integer.parseInt(words[1]);
+                            todoList.remove(index);
+                            todoList.add(index, words[2]);
+                            System.out.println("Дело " + index + " заменено на " + words[2]);
+
+                            for (String s : todoList) {
+                                System.out.println(todoList.indexOf(s) + " " + s);
+                            }}
                         continue;
 
-                    default:
+                        default:
                         System.out.println("Попробуйте еще раз");
                         break;
 
