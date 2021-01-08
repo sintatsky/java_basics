@@ -41,13 +41,13 @@ public class Main {
                         for (String s : todoList) {
                             System.out.println(todoList.indexOf(s) + " " + s);
                         }}
-
-                   else if (words[1].matches("\\d+") & Integer.parseInt(words[1]) < todoList.size()) {
-                        todoList.add(words[2]);
-                        for (String s : todoList) {
-                            System.out.println(todoList.indexOf(s) + " " + s);
-                        }
-                    }
+//
+//                   else if (words[1].matches("\\d+") & Integer.parseInt(words[1]) < todoList.size()) {
+//                        todoList.add(words[2]);
+//                        for (String s : todoList) {
+//                            System.out.println(todoList.indexOf(s) + " " + s);
+//                        }
+//                    }
 
                     else {
                         todoList.add(words[1]);
