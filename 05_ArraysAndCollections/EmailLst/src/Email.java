@@ -26,7 +26,7 @@ public class Email {
             switch (addedEmail[0]){
 
                 case  "ADD":
-                    if (addedEmail[1].contains("@")){
+          if (addedEmail[1].matches("^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\\\.[A-Z]{2,6}$")) {
 
                         email.add(addedEmail[1]);
 
